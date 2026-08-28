@@ -8,6 +8,7 @@ dist/
 
 # environment / IDE
 .commandcode/
+verification/
 .verification/
 .vscode/
 .idea/
