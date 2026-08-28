@@ -21,6 +21,8 @@ jobs:
       - uses: actions/configure-pages@v5
         with:
           static_site_generator: static
+      - name: Build
+        run: node build.mjs
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist
