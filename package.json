@@ -1,0 +1,1 @@
+{"name":"progress-pwa","version":"1.2.0","private":true,"type":"module","scripts":{"dev":"node server.mjs","build":"node build.mjs","preview":"node server.mjs --dist","test":"node tests/calculations.mjs && node tests/store.mjs"}}

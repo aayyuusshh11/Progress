@@ -1,0 +1,21 @@
+{
+  "name": "PROGRESS",
+  "short_name": "PROGRESS",
+  "description": "Offline-first workout tracker. Keep the record of every lift.",
+  "start_url": "./",
+  "scope": "./",
+  "id": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#f6f7f7",
+  "theme_color": "#111317",
+  "categories": ["fitness", "health", "lifestyle"],
+  "icons": [
+    { "src": "./icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" },
+    { "src": "./icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "./icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" }
+  ],
+  "shortcuts": [
+    { "name": "Log Exercise", "url": "./#/log", "description": "Log a workout set" }
+  ]
+}
